@@ -6,7 +6,7 @@ The training mechanism of the proposed method in the paper contains three steps.
 (1) Contrastive learning of the feature encoder.
 (2) Training a classifier.
 
-The python script of the step(1) is tinyimagenet_training_encoder.py, and steps is implemented in tinyimagenet_training_classifier.py.
+The python script of the step(1) is tinyimagenet_training_encoder.py, and step(2) is implemented in tinyimagenet_training_classifier.py.
 Trained models are stored in the folder saved_models.
 The testing script is tinyimagenet_testing.py.
 
